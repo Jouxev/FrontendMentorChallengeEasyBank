@@ -104,7 +104,7 @@ const MobileMenu = styled.div`
   display: none;
   position: absolute;
   background-color: var(--White);
-  top: 100px;
+  top: 80px;
   height: 250px;
   width: 300px;
   border-radius: 5px;

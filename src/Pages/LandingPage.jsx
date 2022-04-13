@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { HeroSection, Navbar, Whychose } from "../Components";
+import {
+  FooterSection,
+  HeroSection,
+  LatestArticle,
+  Navbar,
+  Whychose,
+} from "../Components";
 const Container = styled.div`
   width: 100%;
   background-color: var(--LightGrayishBlue);
@@ -12,6 +18,8 @@ export const LandingPage = () => {
       <Navbar />
       <HeroSection />
       <Whychose />
+      <LatestArticle />
+      <FooterSection />
     </Container>
   );
 };
